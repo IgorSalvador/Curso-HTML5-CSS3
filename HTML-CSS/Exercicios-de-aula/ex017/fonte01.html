@@ -8,7 +8,7 @@
     <style>
         body{ /* Trabalhando com familias de fontes*/
             /*A forma correta de trabalhar com fontes são utilizando as familias de fontes (CSS Web fonts combinations)*/
-            font-family: Arial, Helvetica, sans-serif;
+            font-family: 'Work Sans',Arial, Helvetica, sans-serif;
             /*
             Medidas Absolutas:
             Centimetro, milimetro, polegada, pixel, ponto, paica
@@ -18,12 +18,30 @@
             Altura do M maiusculo
             em, ex, rem, vw, vh, %
             16px geralmente = 1em
-            */
             font-size: 1em;
+            /*Peso da fonte
+            font-weight: lighter;
+            font-style: italic;
+            text-decoration: underline;
+            lighter, normal, bold, bolder
+            */
+            
+
         }
 
-        h1, h2{
-            font-family: 'Times New Roman', Times, serif;
+        h1{
+            /*
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: bolder;
+            font-size: 2em;
+            font-style: italic;
+
+
+
+            ShortHand font (ela condensa todas as configurações
+            font-style -> font-weight -> font-size -> font-family
+            */
+            font: italic bolder 3em Arial, 'Times New Roman', sans-serif;
         }
     </style>
 </head>
